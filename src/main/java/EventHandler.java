@@ -139,6 +139,7 @@ public class EventHandler implements RequestHandler<ScheduledEvent, String> {
             filesProcessed.add(new KeyVersion(summary.getKey()));
             logger.log("logging Contents of the file" + fileContents);
         }
+        //demo
         return filesProcessed;
     }
     
